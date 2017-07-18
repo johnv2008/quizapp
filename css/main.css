@@ -1,0 +1,59 @@
+body {
+	background-color: black;
+}
+
+.jumbotron h1 {
+	font-family: 'Yanone Kaffessatz',
+	sans-serif;
+	color: black;
+	font-weight: bold;
+}
+
+.title {
+	text-align:center;
+	font-size:55px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: white;
+
+}
+
+
+.correct {
+	color:green;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+.incorrect {
+	color:red;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+.form-group > div {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.1;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+h1.correct, h1.incorrect {
+	width:250px;
+}
+
+/*CodePen source code */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.blok1 {
+  height: 45%;
+  background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/05/city-wallpaper-7.jpg);
+  background-position: center center;
+  background-size: cover;
+}
